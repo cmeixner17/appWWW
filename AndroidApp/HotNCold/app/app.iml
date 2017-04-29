@@ -126,5 +126,6 @@
     <orderEntry type="library" exported="" name="support-vector-drawable-23.2.0" level="project" />
     <orderEntry type="library" exported="" scope="TEST" name="jsr305-2.0.1" level="project" />
     <orderEntry type="library" exported="" name="play-services-basement-8.4.0" level="project" />
+    <orderEntry type="library" exported="" name="android-android-23" level="project" />
   </component>
 </module>

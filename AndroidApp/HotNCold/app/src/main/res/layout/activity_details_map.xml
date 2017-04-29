@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/mapView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        class="com.hotncold.hotncold.view.FullMapActivity" />
+    <ImageButton
+        android:src="@drawable/ic_heart_empty"
+        android:layout_width="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:id="@+id/heart"
+        android:clickable="true"
+        android:onClick="manageFavourite"
+        android:layout_height="wrap_content"
+        android:background="@null" />
+</LinearLayout>
